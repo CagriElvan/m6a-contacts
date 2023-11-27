@@ -61,7 +61,6 @@ resource "github_repository_file" "db_endpoint_file" {
   repository          = "m6a-contacts"
   branch              = "main"
   overwrite_on_create = true
-
 }
 
 
